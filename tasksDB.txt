@@ -1,0 +1,55 @@
+-----------------------------tasks--------------------------
+
+	db.createCollection("tasks");
+
+db.tasks.insertMany([
+  {
+    "topic_id":1,
+    "task_id":1,
+    "topic":"HTML",
+    "description":"Create a content using HTML",
+    "deadline_date":ISODate("2023-10-09")
+  },
+  {
+    "topic_id":2,
+    "task_id":2,
+    "topic":"CSS",
+    "description":"Style - created HTML content",
+    "deadline_date":ISODate("2023-10-16")
+  },
+  {
+    "topic_id":3,
+    "task_id":3,
+    "topic":"Javascript",
+    "description":"Add logics to the created content",
+    "deadline_date":ISODate("2023-10-23")
+  },
+  {
+    "topic_id":4,
+    "task_id":4,
+    "topic":"React",
+    "description":"Create same website (created by using of html,css & js) using react",
+    "deadline_date":ISODate("2023-10-30")
+  },
+{
+  "topic_id": 5,
+  "task_id": 5,
+  "topic": "Bootstrap",
+  "description": "Create same website using bootstrap",
+ "deadline_date":ISODate("2023-11-06")
+},
+{
+  "topic_id": 6,
+  "task_id": 6,
+  "topic": "React",
+  "description": "Create Admission form in react",
+ "deadline_date":ISODate("2023-11-16")
+},
+{
+  "topic_id": 7,
+  "task_id": 7,
+  "topic": "React Hooks",
+  "description": "Create a todo App using UseContext API",
+ "deadline_date":ISODate("2023-11-21")
+},
+]);
